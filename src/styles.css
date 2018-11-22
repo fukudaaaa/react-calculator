@@ -1,0 +1,80 @@
+html,
+body,
+#root,
+.App {
+  color: rgb(247, 241, 233);
+  height: 100%;
+  margin: 0;
+  background: rgb(17, 15, 15);
+  box-sizing: border-box;
+}
+.App {
+  padding: 5% 20% 2% 20%;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+}
+
+p {
+  margin: 0;
+}
+
+.display {
+  padding-right: 20%;
+  height: 19%;
+  text-align: right;
+  vertical-align: middle;
+  line-height: 100px;
+  font-size: 4rem;
+}
+.formura {
+  text-align: right;
+  padding-right: 20%;
+  height: 3%;
+  font-size: 1.1em;
+}
+
+.down-side {
+  display: flex;
+  height: 82%;
+}
+
+.keys {
+  width: 70%;
+  height: 100%;
+}
+
+.row0,
+.row1,
+.row2,
+.row3,
+.row4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+
+.key {
+  width: 33%;
+  box-sizing: border-box;
+  font-size: 3rem;
+}
+
+.symbols {
+  width: 15%;
+}
+.symbol {
+  height: 20%;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
